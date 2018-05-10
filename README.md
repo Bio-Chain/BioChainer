@@ -8,7 +8,7 @@ git clone https://github.com/Bio-Chain/BioChainer
 cd BioChainer
 ```
 
-Edit line 24 on `bot.py` with your bot token and the next line with the @ that is contained in the last chain participant, then run the bot:
+Edit `config.json` with your bot token and the next line with the @ that is contained in the last chain participant (without the @), then run the bot:
 ```bash
 ./bot.py
 ```
@@ -17,7 +17,7 @@ It should work with python 2.7 and 3.x, but it was only tested with python 3.6.
 
 ## TODO
 - Add Webhook support
-- Add Config file
+- ~~Add Config file~~
 - User management:
   - User left the chain
   - User wants to join the chain
